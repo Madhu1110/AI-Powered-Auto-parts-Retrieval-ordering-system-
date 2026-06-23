@@ -1,1 +1,27 @@
+Automotive Parts Conversational Assistant - Requirements
+Install with: pip install -r requirements.txt
+
+LLM & Embedding Models
+ollama>=0.1.0              # Ollama client for local LLMs (llava, llama3)
+sentence-transformers>=2.2.0  # For embeddings (all-MiniLM-L6-v2)
+
+Vector Search & AI
+faiss-cpu>=1.7.0           # Facebook AI Similarity Search (CPU version)
+
+Image Processing (for image response system)
+Pillow>=9.0.0              # Image processing and manipulation
+
+Data Processing
+numpy>=1.24.0              # Numerical operations
+pandas>=2.0.0              # Data manipulation and analytics
+
+Utilities & Configuration
+python-dotenv>=1.0.0       # Load environment variables from .env
+pydantic>=2.0.0            # Data validation and settings management
+requests>=2.31.0           # HTTP library for external requests
+
+Development & Testing (optional)
+pytest>=7.0.0              # Testing framework
+black>=23.0.0              # Code formatter
+flake8>=6.0.0              # Code linter
 
